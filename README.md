@@ -1,2 +1,74 @@
-# How-to-Write-a-Winning-Research-Paper-A-Visual-Guide
-A visual infographic series demystifying how to write each section of a research paper: Abstract, Introduction, Related Work, Literature Review, Methodology, and Conclusion, with clear structural templates and color-coded, paragraph-level breakdowns for researchers.
+# 📚 How to Write a Winning Research Paper — A Visual Guide
+
+A six-part infographic series breaking down exactly how to structure every major section of a research paper — **Abstract, Introduction, Related Work, Literature Review, Methodology, and Conclusion** — with color-coded, paragraph-by-paragraph templates you can apply to your own writing.
+
+Created and maintained by **Irfanul Kabir Hira**.
+
+---
+
+## 🗂️ Contents
+
+| # | Section | Paper Type | Structure |
+|---|---------|-----------|-----------|
+| 1 | [Abstract](#1-abstract) | Journal / General | Importance → Research Gap → Objective → Methodology → Key Findings → Implications |
+| 2 | [Introduction](#2-introduction) | Journal | Importance → Background → Background → Problem Statement → Research Gap → Evidence → Research Gap → Evidence → Local Context → Study Objectives → Paper Aim |
+| 3 | [Related Work](#3-related-work-conference) | Conference | Importance + Key Work → Subsequent Works → Grouped Comparison → Research Gap + Solution (4-paragraph structure) |
+| 4 | [Literature Review](#4-literature-review-journal) | Journal | Field Importance → Foundational Work → Thematic Sub-strands → Synthesis & Limitations → Research Gap → Study Aim |
+| 5 | [Methodology](#5-methodology) | Journal / Conference | 11 modular, non-paragraph-limited building blocks (Overview → Data → Preprocessing → Model → Evaluation → Setup → XAI → Reproducibility) |
+| 6 | [Conclusion](#6-conclusion) | Journal / General | Key Message → Key Research Findings → Broader Implications → Main Research Contribution → Future Directions → Call to Action |
+
+---
+
+## 1. Abstract
+![How to write a winning abstract](assets/abstract_infographic.png)
+
+A tight, six-block abstract structure: state why the problem matters, name the gap, state your objective, summarize your method, report your key result, and close with the practical implication.
+
+## 2. Introduction
+![How to write a winning introduction](assets/Introduction_Section.png)
+
+A journal-style, ten-block introduction that layers importance, background, problem statement, and repeated gap–evidence pairs before narrowing into the study's objectives and aim — the same skeleton used in high-impact journal papers.
+
+## 3. Related Work (Conference)
+![How to write a winning related work section](assets/Related_work_Confirence.png)
+
+A compact **4-paragraph** related-work structure built for space-constrained conference papers: importance + first key work, subsequent works, a grouped comparison of several studies, and the gap your paper fills.
+
+## 4. Literature Review (Journal)
+![How to write a winning literature review section](assets/Literature_review_Journal.png)
+
+An expanded, **thematic** literature review for journal papers with more room to breathe — organizing prior work into strands (foundational, ML-based, deep learning, sensor fusion), followed by a dedicated synthesis-and-limitations paragraph before the gap and study aim.
+
+## 5. Methodology
+![How to write a winning methodology section](assets/methodology_infographic.png)
+
+Unlike the other sections, Methodology isn't paragraph-limited — it's **11 modular subsections**, each with a clear job: pipeline overview, dataset description, data-splitting strategy (with explicit leakage prevention), feature composition, EDA, preprocessing, model architecture, evaluation metrics, hyperparameter setup, explainability (XAI), and a reproducibility statement.
+
+## 6. Conclusion
+![How to write a winning conclusion section](assets/conclusion_infographic.png)
+
+A six-block conclusion template that restates the key message, synthesizes findings into numbered lessons, broadens the implications, states the core contribution, and closes with future directions and a call to action.
+
+---
+
+## 💡 How to Use This Guide
+
+1. Pick the section you're writing.
+2. Follow the labeled blocks top to bottom as a checklist, not a rigid script.
+3. Swap in your own dataset, citations, and findings — the colors are there to help you see the *shape* of a strong section, not to be copied verbatim.
+4. For Methodology specifically, remember: every technical claim should be backed by an **equation, a table, or a citation**.
+
+## ✍️ Writing Style Notes
+
+- Avoid repeating the same opener across paragraphs/subsections (e.g. "This paper proposed…", "In this study, we…").
+- Vary transitions: *Furthermore, Building upon this, More recently, To begin with, Subsequently, This is achieved by…*
+- Every research gap should lead directly into what your paper does about it — don't leave the gap hanging.
+
+## 📄 License
+
+These infographics and this guide are shared for educational purposes. Feel free to reference or adapt the structure for your own writing; please credit the author if reposting the visuals themselves.
+
+## 👤 Author
+
+**Irfanul Kabir Hira**
+Feel free to connect for feedback, collaboration, or questions about the structures used here.
