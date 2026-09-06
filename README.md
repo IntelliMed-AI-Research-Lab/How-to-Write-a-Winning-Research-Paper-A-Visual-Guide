@@ -2,10 +2,10 @@
 
 # For Finding the best Paper's Bibtex of the paper , Using PROMT
 ===============
-And listen at first provide me some updated bibtex of the paper that are relavent to out topic we can cite in the Related work ..
-and make sure those paper should be Q1 anf updated 2026's paper , must take from googel schoalar , and listen do not take any paper from priprint, 
-all the paper should IEEE , Springer or Elsivier 
 
+at first provide me some updated bibtex of the paper that are relavent to out topic we can cite in Related work.. and make sure those papers  should be Q1 those you are about to provide me , and they should be  updated 2026's papers , must be  take from i mean before providing me , you at first verify the paper's bibtex from  google scholar , and listen do not take any paper from pr-iprint, 
+
+all the paper should IEEE ,IEEE Access ,  Springer or Elsivier
 
 # only for Confirence Related work the pormot is , 
 ===========
