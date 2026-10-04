@@ -2,7 +2,6 @@
 
 # For Finding the best Paper's Bibtex of the paper , Using PROMT
 ===============
-
 Act as a careful academic research assistant. I am writing the Related Work
 section of a paper on: [TOPIC / KEYWORDS / SUB-AREA].
 
@@ -77,6 +76,8 @@ OUTPUT (for each of [15-20] papers)
 5. Status: VERIFIED (source) or UNVERIFIED
 
 Group by sub-theme. End with a list of gaps you could not fill.
+
+
 
 # only for Confirence Related work the pormot is , 
 ===========
