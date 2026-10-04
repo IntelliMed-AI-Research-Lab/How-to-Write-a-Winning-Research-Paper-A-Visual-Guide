@@ -3,9 +3,44 @@
 # For Finding the best Paper's Bibtex of the paper , Using PROMT
 ===============
 
-at first provide me some updated bibtex of the paper that are relavent to our topic we can cite in Related work.. and make sure those papers  should be Q1 those you are about to provide me , and they should be  updated 2026's papers , must be  take from i mean before providing me , you at first verify the paper's bibtex from  google scholar , and listen do not take any paper from pr-iprint, 
+Act as a careful academic research assistant. I am writing the Related Work
+section of a paper on: [TOPIC / KEYWORDS / SUB-AREA].
 
-all the paper should IEEE ,IEEE Access ,  Springer or Elsivier or this kind of famous Publiseher
+TASK
+Find peer-reviewed papers I can cite, and give each as a ready-to-use BibTeX entry.
+
+STRICT SOURCE RULES
+1.  SKIP all preprints. Do not include anything from arXiv, SSRN, ResearchGate,
+   TechRxiv, bioRxiv, or OpenReview-only. Only include papers that were
+   officially published in a peer-reviewed journal. If a paper is on arXiv AND
+   was also published in a journal, use the journal version, not the arXiv one.
+2. SKIP all MDPI journals. Do not include any paper from Sensors, Applied
+   Sciences, Electronics, Mathematics, Remote Sensing, or any other MDPI
+   journal (DOI starting with 10.3390). Also skip Frontiers journals and
+   any journal not indexed in Scopus or Web of Science.
+4. Allowed publishers: IEEE (incl. IEEE Access, IEEE Transactions), ACM, Springer
+   (incl. Nature Portfolio), Elsevier, Wiley, Taylor & Francis, SAGE.
+5. The journal must be Q1 in its subject category per Scimago (SJR) or Clarivate
+   JCR. State which source and which category you used for each paper.
+6. Recency: prioritize 2025-2026. Allow 2023-2024 if highly relevant. Include at
+   most [2-3] older foundational papers, clearly labeled as foundational.
+
+VERIFICATION RULES
+- Verify every paper's title, authors, journal, year, volume, pages/article number,
+  and DOI using Google Scholar or the publisher page before including it.
+- If you cannot browse or verify, say so at the top. Do not invent or guess any
+  field. If a field is uncertain, mark it "UNVERIFIED" instead of filling it in.
+- If you cannot find enough papers that meet all rules, return fewer papers.
+  Do not relax the rules to hit a number.
+
+OUTPUT (for each of [15-20] papers)
+1. BibTeX entry (consistent citation key: firstauthorYEARkeyword)
+2. One line: what the paper contributes
+3. One line: where in Related Work I should cite it (which sub-topic or comparison)
+4. Journal, publisher, quartile + ranking source, DOI
+5. Verification status: VERIFIED (source) or UNVERIFIED
+
+Group the papers by sub-theme. End with a list of any gaps you could not fill.
 
 # only for Confirence Related work the pormot is , 
 ===========
