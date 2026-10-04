@@ -7,40 +7,76 @@ Act as a careful academic research assistant. I am writing the Related Work
 section of a paper on: [TOPIC / KEYWORDS / SUB-AREA].
 
 TASK
-Find peer-reviewed papers I can cite, and give each as a ready-to-use BibTeX entry.
+Find peer-reviewed papers I can cite and give each as a ready-to-use BibTeX
+entry. Use only the venues listed below that are relevant to my topic.
 
-STRICT SOURCE RULES
-1.  SKIP all preprints. Do not include anything from arXiv, SSRN, ResearchGate,
-   TechRxiv, bioRxiv, or OpenReview-only. Only include papers that were
-   officially published in a peer-reviewed journal. If a paper is on arXiv AND
-   was also published in a journal, use the journal version, not the arXiv one.
-2. SKIP all MDPI journals. Do not include any paper from Sensors, Applied
-   Sciences, Electronics, Mathematics, Remote Sensing, or any other MDPI
-   journal (DOI starting with 10.3390). Also skip Frontiers journals and
-   any journal not indexed in Scopus or Web of Science.
-4. Allowed publishers: IEEE (incl. IEEE Access, IEEE Transactions), ACM, Springer
-   (incl. Nature Portfolio), Elsevier, Wiley, Taylor & Francis, SAGE.
-5. The journal must be Q1 in its subject category per Scimago (SJR) or Clarivate
-   JCR. State which source and which category you used for each paper.
-6. Recency: prioritize 2025-2026. Allow 2023-2024 if highly relevant. Include at
-   most [2-3] older foundational papers, clearly labeled as foundational.
+STRICT RULES
+1. SKIP all preprints: arXiv, SSRN, ResearchGate, TechRxiv, bioRxiv, and
+   papers that are only under review on OpenReview. If a paper exists as a
+   preprint AND a published version, cite the published version only.
+2. SKIP all MDPI journals (Sensors, Applied Sciences, Electronics,
+   Mathematics, Remote Sensing, etc.; DOI starting 10.3390) and Frontiers.
+3. Journals must be Q1 (Scimago or Clarivate JCR). Conferences must be
+   CORE A* or A. Confirm the current rank before including a paper; if it
+   is not Q1 / A*/A, exclude it.
+4. Recency: prioritize 2025-2026, allow 2023-2024 if highly relevant, and
+   include at most [2-3] older foundational papers, labeled "foundational".
 
-VERIFICATION RULES
-- Verify every paper's title, authors, journal, year, volume, pages/article number,
-  and DOI using Google Scholar or the publisher page before including it.
-- If you cannot browse or verify, say so at the top. Do not invent or guess any
-  field. If a field is uncertain, mark it "UNVERIFIED" instead of filling it in.
-- If you cannot find enough papers that meet all rules, return fewer papers.
-  Do not relax the rules to hit a number.
+TOP JOURNALS (all Q1)
+- ML/DL/AI: IEEE TPAMI, JMLR, Artificial Intelligence, JAIR, Machine
+  Learning, IEEE TNNLS, Neural Networks, Nature Machine Intelligence
+- Vision: IJCV, IEEE TIP, CVIU, Pattern Recognition, IEEE TCSVT, Medical
+  Image Analysis, IEEE TMI, IEEE TGRS, ISPRS Journal
+- General CS/Eng: JACM, ACM Computing Surveys, IEEE TKDE, ACM TOIS, IEEE TSE,
+  ACM TOSEM, IEEE TC, ACM TOCS, IEEE TPDS, IEEE/ACM ToN, IEEE TDSC, IEEE TIFS,
+  Journal of Cryptology, ACM TOG, IEEE TVCG, ACM TOCHI, TACL, Computational
+  Linguistics, IEEE/ACM TASLP, IEEE T-RO, IJRR, IEEE TSP, IEEE TCYB,
+  IEEE TII, Information Fusion
+
+TOP CONFERENCES (all A*/A)
+- ML: NeurIPS, ICML, ICLR, AISTATS, UAI, COLT, MLSys
+- AI: AAAI, IJCAI
+- Vision: CVPR, ICCV, ECCV, WACV
+- NLP/LLM: ACL, EMNLP, NAACL, EACL
+- Robotics: ICRA, IROS, RSS, CoRL
+- Data mining/Web: KDD, WWW, WSDM, ICDM
+- Security: IEEE S&P, USENIX Security, ACM CCS, NDSS
+- Networking: SIGCOMM, NSDI, MobiCom, INFOCOM, SIGMETRICS
+- Mobile/Sensing: SenSys, MobiSys, PerCom
+- Systems: SOSP, OSDI, EuroSys, ASPLOS, USENIX ATC, FAST
+- Databases: SIGMOD, VLDB, ICDE
+- Software Eng.: ICSE, FSE, ASE
+- HCI: CHI, UIST, CSCW
+- Theory: STOC, FOCS, SODA
+- PL: POPL, PLDI, OOPSLA
+- Architecture/EDA: ISCA, MICRO, HPCA, DAC, ICCAD
+- Graphics: SIGGRAPH, SIGGRAPH Asia
+- Cryptography: CRYPTO, EUROCRYPT, ASIACRYPT
+- IR: SIGIR | Social: ICWSM | Multimedia: ACM MM
+- Bioinformatics: ISMB, RECOMB
+- Speech/Signal: ICASSP, INTERSPEECH
+- Verification: CAV
+Allowed publishers/proceedings: IEEE, ACM, Springer, Elsevier, Wiley,
+Taylor & Francis, SAGE, PMLR, NeurIPS Proceedings, CVF Open Access,
+ACL Anthology, AAAI, IJCAI, USENIX, OpenReview (accepted papers only).
+
+VERIFICATION
+- Verify title, authors, venue, year, volume, pages/article number, and DOI
+  via Google Scholar or the publisher page before including each paper.
+- If you cannot browse, say so at the top. Never invent or guess a field;
+  mark uncertain fields "UNVERIFIED".
+- If you cannot find enough papers that meet all rules, return fewer.
+  Do not relax the rules to reach a number.
 
 OUTPUT (for each of [15-20] papers)
-1. BibTeX entry (consistent citation key: firstauthorYEARkeyword)
+1. BibTeX (key: firstauthorYEARkeyword; @article for journals,
+   @inproceedings for conferences)
 2. One line: what the paper contributes
-3. One line: where in Related Work I should cite it (which sub-topic or comparison)
-4. Journal, publisher, quartile + ranking source, DOI
-5. Verification status: VERIFIED (source) or UNVERIFIED
+3. One line: where in Related Work to cite it
+4. Venue, publisher, Q1 or A*/A, DOI
+5. Status: VERIFIED (source) or UNVERIFIED
 
-Group the papers by sub-theme. End with a list of any gaps you could not fill.
+Group by sub-theme. End with a list of gaps you could not fill.
 
 # only for Confirence Related work the pormot is , 
 ===========
